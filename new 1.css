@@ -1,0 +1,101 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+#txt {
+    font-weight: bold;
+
+
+
+}
+h3 {
+font-family: 'Dancing Script', cursive;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('http://www.antral.pt/wp-content/uploads/medicina-de-familia.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 900px;
+  text-shadow: 0.5px 0.25px 0.5px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.button {
+	color: black;
+font-family: 'Dancing Script', cursive;
+padding:20px;
+font-size: 1.5em;
+    border-radius: 15px;
+background-color: white;
+border-color: black;
+}
+
+btn {
+	color: black;
+
+padding:5px;
+
+    border-radius: 15px;
+background-color: white;
+
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+.button:active {
+ 
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button:hover {background-color: #ffe6ff}
